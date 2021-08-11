@@ -1,0 +1,5 @@
+creation_rules:
+  - key_groups:
+      - kms:
+          - arn: arn:aws:kms:us-west-2:433686501897:alias/secrets
+          - arn: arn:aws:kms:us-east-1:433686501897:alias/secrets
